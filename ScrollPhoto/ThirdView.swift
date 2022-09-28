@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ThirdView: View {
+    
+    var photoName:String
+    
     var body: some View {
-        Image("choco")
+        Image(photoName)
             .resizable()
             .frame(width: 200,height: 200)
             .scaledToFit()
@@ -18,6 +21,6 @@ struct ThirdView: View {
 
 struct ThirdView_Previews: PreviewProvider {
     static var previews: some View {
-        ThirdView()
+        ThirdView(photoName:"01wi")
     }
 }

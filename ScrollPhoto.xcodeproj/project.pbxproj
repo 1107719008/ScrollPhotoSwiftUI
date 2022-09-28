@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D579B7E928E14E0E00D0A891 /* ScrollPhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579B7E828E14E0E00D0A891 /* ScrollPhotoApp.swift */; };
-		D579B7EB28E14E0E00D0A891 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579B7EA28E14E0E00D0A891 /* ContentView.swift */; };
 		D579B7ED28E14E1000D0A891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D579B7EC28E14E1000D0A891 /* Assets.xcassets */; };
 		D579B7F028E14E1000D0A891 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D579B7EF28E14E1000D0A891 /* Preview Assets.xcassets */; };
 		D579B7F228E14E1000D0A891 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579B7F128E14E1000D0A891 /* Persistence.swift */; };
@@ -21,6 +20,9 @@
 		D579B81C28E1681E00D0A891 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579B81B28E1681E00D0A891 /* SecondView.swift */; };
 		D579B81E28E1682C00D0A891 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579B81D28E1682C00D0A891 /* ThirdView.swift */; };
 		D579B82028E16B7F00D0A891 /* picturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579B81F28E16B7F00D0A891 /* picturesView.swift */; };
+		D579B82328E1A13800D0A891 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579B82228E1A13800D0A891 /* HomePage.swift */; };
+		D579B82528E1A17F00D0A891 /* HeaderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D579B82428E1A17F00D0A891 /* HeaderPage.swift */; };
+		D59A00B628E415C1007998F1 /* scrollHorizon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59A00B528E415C1007998F1 /* scrollHorizon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +45,6 @@
 /* Begin PBXFileReference section */
 		D579B7E528E14E0E00D0A891 /* ScrollPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D579B7E828E14E0E00D0A891 /* ScrollPhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPhotoApp.swift; sourceTree = "<group>"; };
-		D579B7EA28E14E0E00D0A891 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D579B7EC28E14E1000D0A891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D579B7EF28E14E1000D0A891 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D579B7F128E14E1000D0A891 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -58,6 +59,9 @@
 		D579B81B28E1681E00D0A891 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		D579B81D28E1682C00D0A891 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		D579B81F28E16B7F00D0A891 /* picturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picturesView.swift; sourceTree = "<group>"; };
+		D579B82228E1A13800D0A891 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		D579B82428E1A17F00D0A891 /* HeaderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderPage.swift; sourceTree = "<group>"; };
+		D59A00B528E415C1007998F1 /* scrollHorizon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollHorizon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				D579B7E828E14E0E00D0A891 /* ScrollPhotoApp.swift */,
-				D579B7EA28E14E0E00D0A891 /* ContentView.swift */,
 				D579B81728E14EA200D0A891 /* ScrollTabView.swift */,
+				D579B82228E1A13800D0A891 /* HomePage.swift */,
+				D579B82428E1A17F00D0A891 /* HeaderPage.swift */,
+				D59A00B528E415C1007998F1 /* scrollHorizon.swift */,
 				D579B82128E16C0600D0A891 /* category */,
 				D579B81928E1680C00D0A891 /* FIrstView.swift */,
 				D579B81B28E1681E00D0A891 /* SecondView.swift */,
@@ -289,9 +295,11 @@
 				D579B81E28E1682C00D0A891 /* ThirdView.swift in Sources */,
 				D579B81C28E1681E00D0A891 /* SecondView.swift in Sources */,
 				D579B7F228E14E1000D0A891 /* Persistence.swift in Sources */,
+				D579B82528E1A17F00D0A891 /* HeaderPage.swift in Sources */,
+				D59A00B628E415C1007998F1 /* scrollHorizon.swift in Sources */,
 				D579B81A28E1680C00D0A891 /* FIrstView.swift in Sources */,
 				D579B7F528E14E1000D0A891 /* ScrollPhoto.xcdatamodeld in Sources */,
-				D579B7EB28E14E0E00D0A891 /* ContentView.swift in Sources */,
+				D579B82328E1A13800D0A891 /* HomePage.swift in Sources */,
 				D579B7E928E14E0E00D0A891 /* ScrollPhotoApp.swift in Sources */,
 				D579B81828E14EA200D0A891 /* ScrollTabView.swift in Sources */,
 				D579B82028E16B7F00D0A891 /* picturesView.swift in Sources */,
